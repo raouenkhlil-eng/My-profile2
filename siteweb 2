@@ -1,0 +1,124 @@
+<header>
+<h1>Health Connect</h1>
+<p>Votre guide pour une meilleure santé et des informations médicales fiables.</p>
+</header>
+Rawen
+<!DOCTYPE html>
+<html>
+<head>
+<title>Health Connect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Health Connect</h1>
+<p>Your guide to better health</p>
+</header>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Services</a>
+<a href="#">Articles</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Welcome to Health Connect</h2>
+<p>Discover health tips and medical information to improve your life.</p>
+<button>Learn More</button>
+</section>
+
+<section class="services">
+
+<div class="card">
+<h3>Health Tips</h3>
+<p>Daily advice to stay healthy.</p>
+</div>
+
+<div class="card">
+<h3>Medical Articles</h3>
+<p>Simple explanations about diseases.</p>
+</div>
+
+<div class="card">
+<h3>Nutrition</h3>
+<p>Guidance for a balanced diet.</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Health Connect</p>
+</footer>
+
+</body>
+</html>
+Rawen
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#2ecc71;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#333;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:#2ecc71;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:white;
+}
+
+.hero button{
+padding:10px 20px;
+background:#2ecc71;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:200px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
